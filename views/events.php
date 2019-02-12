@@ -1,6 +1,6 @@
 ﻿<?php
 $currentPage = 'events';
-$currentSubPage = '';﻿﻿
+$currentSubPage = '';
 ?>
 <!doctype html>
 <html lang="zxx">

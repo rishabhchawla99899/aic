@@ -43,6 +43,21 @@ Version      : 1.0
     32.Shop
 
 **********************************************/
+
+.heart {
+	font-size: 150px;
+	color: #e00;
+	animation: beat .25s infinite alternate;
+	transform-origin: center;
+}
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+
+
+
+
+
 @media only screen and (max-width: 992px){
 	#headermain {
 		position:fixed;
@@ -1086,14 +1101,19 @@ ul.countdown.countdown-border span {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+.icon-box:hover
+{
+	transform: scale(1.5);
+}
 
 .icon-boxes.with-shadow .icon-box:hover {
+
   -webkit-box-shadow: 0 0px 50px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0px 50px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0px 50px rgba(0, 0, 0, 0.1);
 }
 
-/*-------------------------------------------------------
+/*------------------box-------------------------------------
     12. Footer
 -------------------------------------------------------*/
 footer .widget h6 {
@@ -2358,15 +2378,11 @@ msg-error {
   margin: -20px 0 0 -20px;
   position: relative;
   text-align: center;
-  -webkit-animation: sk-rotate 2.0s infinite linear;
-  -moz-animation: sk-rotate 2.0s infinite linear;
-  -o-animation: sk-rotate 2.0s infinite linear;
-  animation: sk-rotate 2.0s infinite linear;
 }
 
 .loader-4 .loader > div {
-  width: 60%;
-  height: 60%;
+  width: 80%;
+  height: 80%;
   display: inline-block;
   position: absolute;
   top: 0;
@@ -2374,25 +2390,17 @@ msg-error {
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
-  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
-  -moz-animation: sk-bounce 2.0s infinite ease-in-out;
-  -o-animation: sk-bounce 2.0s infinite ease-in-out;
-  animation: sk-bounce 2.0s infinite ease-in-out;
 }
 
 .loader-4 .loader .bounce2 {
   top: auto;
   bottom: 0;
-  -webkit-animation-delay: -1.0s;
-  -moz-animation-delay: -1.0s;
-  -o-animation-delay: -1.0s;
-  animation-delay: -1.0s;
 }
 
 .loader-4 .loader .bounce3 {
   display: none;
 }
-
+/**
 @-webkit-keyframes sk-rotate {
   100% {
     -webkit-transform: rotate(360deg);
@@ -2479,7 +2487,7 @@ msg-error {
     transform: scale(1);
     -webkit-transform: scale(1);
   }
-}
+/* } */
 
 /*-------------------------------------------------------
     17. Map

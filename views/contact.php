@@ -1,6 +1,6 @@
 <?php
 $currentPage = 'contact';
-$currentSubPage = '';﻿
+$currentSubPage = '';
 ?>
 <!doctype html>
 <html lang="zxx">

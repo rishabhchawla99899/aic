@@ -1,5 +1,5 @@
 <?php
-$siteurl="http://staging.aicmuj.com";
+$siteurl="http://localhost:81/aic1";
 $title='';
 switch($currentPage)
 {
@@ -60,6 +60,4 @@ switch($currentPage)
   <link rel="stylesheet" href="<?php echo $siteurl;?>\css\skins\default-skin.css">
   <!-- Favicons -->
   <link rel="shortcut icon" href="<?php echo $siteurl;?>/images/logos/favicon.png">
-  
-	
 </head>

@@ -1,5 +1,4 @@
-﻿
-<?php
+﻿<?php
 $currentPage = 'home';
 $currentSubPage = '';
 ?>
@@ -203,45 +202,7 @@ $currentSubPage = '';
   <section class="section-padding gray-bg">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-md-4">
-          <h4 class="m-t50 m-b10 f-w-600">We build a strong team of great people</h4>
-          <h5 class="f-w-500">lorem &amp; ipsum dolor </h5>
-          <!-- <a href="#" class="button button-dark button-outline"> Read More </a> -->
-          <div id="accordion">
-            <div class="accordion-item">
-              <div class="accordion-title">
-                <h5 class="mb-0" data-toggle="collapse" data-target="#collapseOne">CONNECT</h5>
-              </div>
-              <div class="collapse accordion-content" id="collapseOne" data-parent="#accordion">
-                <div class="accordion-content-inner gray-bg">
-                  Join a group of like minded people
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <div class="accordion-title">
-                <h5 class="mb-0" data-toggle="collapse" data-target="#collapseTwo">CO-WORK</h5>
-              </div>
-              <div class="collapse accordion-content" id="collapseTwo" data-parent="#accordion">
-                <div class="accordion-content-inner gray-bg">
-                  An awesome office that doesn’t break the bank with unmatched amenities.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <div class="accordion-title">
-                <h5 class="mb-0" data-toggle="collapse" data-target="#collapseThree">GROW</h5>
-              </div>
-              <div class="collapse accordion-content" id="collapseThree" data-parent="#accordion">
-                <div class="accordion-content-inner gray-bg">
-                  Accelerate the process of building your company.
-                </div>
-              </div>
-          </div>
-          </div>
-        </div>
 
-        <div class="col-md-7 offset-lg-1">
           <div class="overlap-images overlap-3-images imgbox2">
             <div class="image-box">
               <img class="img-fluid rounded shadow" src="<?php echo $siteurl;?>\images\home\img1.jpg" alt="image1">
@@ -253,7 +214,6 @@ $currentSubPage = '';
               <img class="img-fluid rounded shadow" src="<?php echo $siteurl;?>\images\home\img3.jpg" alt="image3">
             </div>
           </div>
-        </div>
       </div>
     </div>
   </section>
@@ -428,19 +388,6 @@ $currentSubPage = '';
         </div>
       </div>
       <!-- Icon box -->
-    </div>
-  </section>
-
-  <section class="overlay parallax section-padding" data-speed="0.6" data-background="<?php echo $siteurl;?>/images/home/knowmore.jpg" data-overlay-color="black" data-overlay="8">
-    <div class="container ">
-      <div class="row text-white text-center">
-        <div class="cta text-center col-12">
-          <div class="cta-info">
-            <h4 class="f-w-700 f-size-25 l-height-30 p-x100 p-md-x0" style="padding-bottom:20px;">Click on the link below to know more about Manipal University Jaipur.</h4>
-            <a href="https://www.jaipur.manipal.edu/" class="button button-light button-circle button-shadow">Know more</a>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 

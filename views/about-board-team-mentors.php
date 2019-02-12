@@ -1,6 +1,6 @@
 ﻿<?php
 $currentPage = 'about';
-$currentSubPage = 'board-team-mentors';﻿
+$currentSubPage = 'board-team-mentors';
 ?>
 <!doctype html>
 <html lang="zxx">

@@ -1,6 +1,6 @@
 ﻿<?php
 $currentPage = 'collaborators';
-$currentSubPage = '';﻿
+$currentSubPage = '';
 ?>
 <!doctype html>
 <html lang="zxx">

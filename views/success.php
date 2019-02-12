@@ -1,6 +1,6 @@
 ﻿<?php
 $currentPage = 'success';
-$currentSubPage = '';﻿﻿
+$currentSubPage = '';
 ?>
 <!doctype html>
 <html lang="zxx">
