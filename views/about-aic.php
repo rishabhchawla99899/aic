@@ -41,25 +41,10 @@ $currentSubPage = 'aic';
             <div class="icon-box">
               <div class="icon-box-info">
                 <h5>01. Our Mission</h5>
-                <p>People normally take jobs, our mission is to convert these job finders into job makers through Entrepreneurship.
-<br> <br>
-Incubates at AIC-MUJ will get opportunities to create their prototype and implement them after a thorough market analysis is achieved from their end.</p>
+                <p>Incubates at AIC-MUJ will get opportunities to create their prototype and implement them after a thorough market analysis is achieved from their end.</p>
               </div>
             </div>
           </div>
-
-          <div class="col-md-6 col-12">
-            <div class="icon-box">
-              <div class="icon-box-info">
-                <h5>03. Our Strategy</h5>
-                <p>We don’t have any strategy, we believe in creating an ecology system for our, future upcoming entrepreneurs.
-We believe that great incubates uses the opportunity and in that Seedfunding is a great start.
-AIC-MUJ can be the best gateway for any entrepreneur’s journey. It doesn’t matter if you are selling equity, a product or looking for the market feedback.
-You need to get your product out there and see what changes you are bringing.</p>
-              </div>
-            </div>
-          </div>
-
           <div class="col-md-6 col-12">
             <div class="icon-box">
               <div class="icon-box-info">
@@ -68,7 +53,14 @@ You need to get your product out there and see what changes you are bringing.</p
               </div>
             </div>
           </div>
-
+          <div class="col-md-6 col-12">
+            <div class="icon-box">
+              <div class="icon-box-info">
+                <h5>03. Our Strategy</h5>
+                <p>Lorem Ipsum is simply dummy text the printing and typesetting industry.</p>
+              </div>
+            </div>
+          </div>
           <div class="col-md-6 col-12">
             <div class="icon-box">
               <div class="icon-box-info">

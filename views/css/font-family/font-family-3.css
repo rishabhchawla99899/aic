@@ -1,0 +1,14 @@
+@import url("../../css-3.css");
+@import url("../../css-4.css");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-alt {
+  font-family: 'Great Vibes', cursive;
+}
