@@ -1,5 +1,5 @@
 <?php
-$siteurl="http://localhost:81/aic1";
+$siteurl="http://staging.aicmuj.com";
 $title='';
 switch($currentPage)
 {
@@ -59,5 +59,14 @@ switch($currentPage)
   <link rel="stylesheet" href="<?php echo $siteurl;?>\css\imggallery.css">
   <link rel="stylesheet" href="<?php echo $siteurl;?>\css\skins\default-skin.css">
   <!-- Favicons -->
-  <link rel="shortcut icon" href="<?php echo $siteurl;?>/images/logos/favicon.png">
+  <link rel="icon" href="<?php echo $siteurl;?>/images/logos/favicon.png">
+  
+	<div id="egggif" class="modal2" style="display:none;">
+	<script type="text/javascript" src="https://cdn.rawgit.com/mikeflynn/egg.js/master/egg.min.js"></script>
+	  <div class="modal-content2 align-items-center" style="text-align:center;">
+		<span class="close2">&times;</span>
+		<h2 id="txtarea"></h2>
+		<iframe name="Framename" src="http://deathwarden150.github.io/portfolio" width="550" height="500px" frameborder="0" scrolling="yes" style="width: 100%;text-align:center;" class="frame-area"> </iframe> 
+	 </div>
+	</div>
 </head>
